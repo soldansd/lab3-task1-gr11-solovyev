@@ -35,3 +35,9 @@ long daysSince1970(int day, int month, int year) {
     days += day - 1;
     return days;
 }
+
+long daysBetweenDates(int day1, int month1, int year1, int day2, int month2, int year2) {
+    long days1 = daysSince1970(day1, month1, year1);
+    long days2 = daysSince1970(day2, month2, year2);
+    return days2 - days1;
+}
