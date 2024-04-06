@@ -1,9 +1,9 @@
 //Created by Solovyev Daniil
 
-#ifndef INTERFACE
-#define INTERFACE
+#ifndef COUNT
+#define COUNT
 
-//This file contains function protoypes for server.c server file
+//This file contains function protoypes for count_days.c server file
 
 // Function to determine the number of days in a given month
 int daysInMonth(int month, int year);

@@ -1,8 +1,8 @@
 //Created by Solovyev Daniil
 
-//This file contains implementations of interface.h file functions
+//This file contains implementations of count_days.h file functions
 
-#include "interface.h"
+#include "count_days.h"
 
 int daysInMonth(int month, int year) {
     switch(month) {
