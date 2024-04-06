@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "interface.h"
-#include "server.c"
+#include "count_days.h"
+#include "count_days.c"
 
 int main (int argc, char* argv[])
 {
